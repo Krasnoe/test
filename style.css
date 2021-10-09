@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+}
+input:focus {
+  outline:none;
+  
+}
+
+.container {
+  max-width: 1250px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+#ownerGarage {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+#edit {
+  margin-bottom: 50px;
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+#item,
+#success {
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+
+#ownerGarage *,
+#item *,
+#success * {
+  font-size: 24px;
+}
+.editable {
+  display: inline;
+}
+
+#discription,
+#keyValues, 
+#original,
+#item-title,
+#nameOwner,
+#email,
+#owner,
+#booling {
+  padding-left: 20px;
+}
+
+#nameOwner,
+#email,
+#owner,
+#input {
+  margin-bottom: 10px;
+}
+
+#fuelType,
+#gearBox,
+#trimLevel,
+#carOptions,
+#make,
+#model {
+  padding-left: 25px;
+}
+
+#title,
+#code {
+  padding-left: 30px;
+}
+.newInput {
+  display: none;
+}
+#ownerContainer {
+  margin-right: 30px;
+}
+#ownerGarage {
+  display: flex;
+  justify-content: flex-start
+}
+#input {
+  display: block;
+  font-size: 18px;
+}
+.visiable {
+  display: block;
+  margin-right: 40px;
+  font-size: 18px;
+}
+.save {
+  display: none;
+}
+.visiableButton {
+  display: inline;
+  padding: 8px 20px;
+  font-size: 20px;
+}
