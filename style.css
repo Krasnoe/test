@@ -1,0 +1,382 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+a,
+button,
+input {
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+a {
+  color:inherit;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+header {
+  overflow: hidden;
+}
+.navbar {
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+.navbar-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo {
+  width: 136px;
+  height: 30px;
+}
+.search {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  color: #BBC4D6;
+  Line-height: 16px;
+  letter-spacing: 0.01em;
+  border: 1px solid #EBEBF1;
+  border-radius: 5px;
+  outline: none;
+  width: 759.7px;
+  max-width: 68%;
+  height: 38px;
+  margin-left: -1.5px;
+}
+.search__button {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 39px;
+  height: 100%;
+  background: transparent;
+}
+.search__button-img {
+  width: 21.5px;
+  height: 18.3px;
+  cursor: pointer;
+  margin-top: 3.5px;
+  margin-left: 3px;
+}
+.search__input {
+  padding-left: 39px;
+  width: 100%;
+  font-family: inherit;
+  font-size: 14px;
+}
+.navbar__user {
+  display: flex; 
+  align-items: center;
+  text-decoration: none;
+  padding-top: 20px;
+  margin-right: 1.5px;
+}
+.user {
+  padding-left: 19.8px;
+  border-left: 1px solid #EBEBF1;
+  height: 80px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.user__name {
+  margin-right: 12px;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 0.01em;
+  color: #768298;
+}
+.user__avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.1px;
+  padding-top: 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.mobile-menu {
+  display: none;
+}
+.partners-title {
+  padding-top: 70px;
+  font-size: 36px;
+  line-height: 57.6px;
+  font-weight: 500;
+  color: #121920;
+  padding-bottom: 30px;
+}
+.invisiable {
+  display: none;
+}
+.partners-wrapper {
+  width: calc(100% + 30px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: -30px;
+}
+.partner {
+  display: flex;
+  width: calc(20% + 28px);
+  height: 118px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(235, 235, 241, 1);
+  border-radius: 5px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.partner:hover {
+  cursor: pointer;
+  box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+}
+.partner__img--henkel {
+  width: 116px;
+  margin-top: 6px;
+}
+.partner__img--johndeere{
+  width: 234px;
+  margin-top: 7px;
+}
+.partner__img--mcdonalds {
+  width: 85px;
+  margin-top: 5px;
+}
+.partner__img--ikea {
+  width: 160px;
+  margin-top: 7px;
+  margin-left: 2.8px;
+}
+.partner__img--reebok {
+  width: 233px;
+  margin-top: 6px;
+}
+.partner__img--nike {
+  width: 132px;
+  margin-top: 6px;
+}
+.partner__img--caterpillar {
+  width: 235.6px;
+  margin-right: 12.8px;
+  margin-top: 4.5px;
+}
+@media (max-width: 1200px){
+  .container {
+    max-width: 960px;
+  }
+  .partner {
+    width: calc(27.2% + 28.7px);
+  }
+  .search {
+    max-width: 61%;
+  }
+}
+@media (max-width: 992px){
+  .container {
+    width: 728px
+  }
+  .search {
+    max-width: 50%;
+  }
+  .partner {
+    width: calc(25.3% + 28.7px);
+  }
+}
+@media (max-width: 768px) {
+  .search {
+    width: 344px;
+    margin-left: 1px;
+  }
+  .navbar__user {
+    margin-right: -0.3px;
+  }
+  .user {
+    padding-left: 20px;
+  }
+  .user__name {
+    margin-right: 10.7px;
+  }
+  .visiable {
+    display: none;
+  }
+  .invisiable {
+    display: block;
+  }
+  .partners-title {
+    font-size: 28px;
+    line-height: 44.8px;
+  }
+  .partners-wrapper {
+    width: calc(100% + 20px);
+    margin-right: -20px;
+  }
+  .partner {
+    width: calc(26.5% + 28.7px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .partner__img--henkel {
+    margin-top: 5px;
+  }
+  .partner__img--johndeere {
+    width: 183px;
+  }
+  .partner__img--mcdonalds {
+    width: 99px;
+    margin-top: 3.8px;
+  }
+  .partner__img--ikea {
+    width: 175px;
+  }
+  .partner__img--reebok {
+    width: 187px;
+    margin-top: 4.5px;
+  }
+  .partner__img--nike {
+    width: 150px;
+  }
+  .partner__img--caterpillar {
+    width: 198px;
+    margin-right: 7.7px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 650px;
+    width: 92%;
+  }
+  .navbar-top {
+    padding-top: 17px;
+    padding-bottom: 0;
+  }
+  .user {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    padding: 0;
+    background-color: transparent;
+  }
+  .mobile-menu__img {
+    color: #34AADD;
+  }
+  .search {
+    width: 767px;
+    max-width: 767px;
+    height: 41px;
+    order: 2;
+    margin-left: -9%;
+    margin-right: -9%;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #EBEBF1;
+  }
+  .search__input {
+    padding-left: 15%;
+  }
+  .search__button {
+    left: 7%;
+  }
+  .logo {
+    padding-bottom: 16px;
+  }
+  .partner {
+    width: calc(42.4% + 28.7px);
+  }
+}
+@media (max-width: 703px) {
+  .partners-wrapper {
+    width: 100%;
+    margin-right: 0;
+    justify-content: space-between;
+  }
+  .partner {
+    width: calc(47%);
+    margin-right: 0;
+  }
+}
+@media (max-width: 465px) {
+  .partner__img {
+    width: 80%;
+  }
+  .partner__link {
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    width: 335px;
+  }
+  .search {
+    width: 375px;
+    height: 41px;
+    order: 2;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .search__input {
+    padding-left: 48.8px;
+  }
+  .search__button {
+    left: 5.5%;
+  }
+  .search__button-img {
+    margin-left: -16px;
+  }
+  .partners-wrapper {
+    width: 100%;
+  }
+  .partner {
+    margin-right: 0;
+    width: 100%;
+    height: 138px;
+  }
+  .partner__img--henkel {
+    width: 147px;
+  }
+  .partner__img--johndeere {
+    width: 233.5px;
+    margin-top: 5.5px;
+  }
+  .partner__img--mcdonalds {
+    width: 99px;
+    margin-top: 6.5px;
+  }
+  .partner__img--ikea {
+    width: 193.8px;
+    margin-top: 6.6px;
+  }
+  .partner__img--reebok {
+    width: 230.8px;
+    margin-top: 4.8px;
+  }
+  .partner__img--nike {
+    width: 150.3px;
+  }
+  .partner__img--caterpillar {
+    width: 248.6px;
+    margin-right: 11.9px;
+  }
+}
