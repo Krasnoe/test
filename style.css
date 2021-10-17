@@ -127,6 +127,20 @@ img {
   margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
+  position: relative;
+}
+.variant-title__freetrial::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 10px 10px;
+  background-image:
+    radial-gradient(circle at 10px -5px, transparent 12px, rgb(255, 255, 255) 13px),
+    radial-gradient(circle at 0px -5px, transparent 12px, rgb(255, 255, 255) 13px);
 }
 .variant-period {
   font-size: 25px;
@@ -292,7 +306,7 @@ img {
     margin-bottom: 8.7px;
   }
   .variant-wrapper__freetrial {
-    margin-bottom: 3px;
+    margin-bottom: 5.5px;
   }
   .variant-title {
     font-size: 46px;
@@ -302,8 +316,8 @@ img {
   .variant-title__freetrial {
     font-size: 12px;
     padding-top: 3.2px;
-    padding-bottom: 7px;
-    margin-bottom: 6.4px;
+    padding-bottom: 11.5px;
+    margin-bottom: 2px;
     letter-spacing: 0.3px;
   }
   .variant-period {
@@ -320,6 +334,7 @@ img {
   }
   .variant-price__freetrial {
     font-size: 12.3px;
+    line-height: 15px;
   }
   .variant:last-child>.variant-price {
     font-size: 12.4px;
