@@ -368,8 +368,8 @@ img {
     margin-top: 15px;
   }
   .variant-title__freetrial {
-    margin-bottom: 3px;
-    padding-bottom: 3px;
+    margin-bottom: 0;
+    padding-bottom: 8px;
     font-size: 10px;
   }
   .variant-period__freetrial {
