@@ -31,7 +31,7 @@ img {
   padding-top: 55px;
   margin-bottom: 50px;
 }
-.diamond__img {
+.diamond-img {
   width: 300px;
 }
 .rotate {
@@ -69,7 +69,7 @@ img {
   margin-bottom: 9.3px;
   font-size: 23px;
 }
-.small-diamond__img {
+.small-diamond-img {
   width: 30px;
   margin-right: 6.6px;
   margin-top: 3px;
@@ -106,7 +106,7 @@ img {
   text-align: center;
   margin-bottom: 20px;
 }
-.variant-wrapper__freetrial {
+.variant-wrapper-freetrial {
   margin-bottom: 3px;
 }
 .variant:last-child>.variant-wrapper {
@@ -117,7 +117,7 @@ img {
   line-height: 50px;
   margin-top: 40px;
 }
-.variant-title__freetrial {
+.variant-title-freetrial {
   font-size: 14px;
   width: 100%;
   background: linear-gradient(to right, rgb(255, 123, 0), rgb(223, 1, 252));
@@ -129,7 +129,7 @@ img {
   margin-right: 0;
   position: relative;
 }
-.variant-title__freetrial::before {
+.variant-title-freetrial::before {
   content: "";
   position: absolute;
   left: 0;
@@ -146,7 +146,7 @@ img {
   font-size: 25px;
   font-weight: 700;
 }
-.variant-period__freetrial {
+.variant-period-freetrial {
   font-size: 30px;
   color: rgb(223, 1, 252);
   font-weight: 700;
@@ -155,7 +155,7 @@ img {
   font-size: 20px;
   text-align: center;
 }
-.variant-price__freetrial {
+.variant-price-freetrial {
   font-size: 18px;
 }
 .variant:last-child>.variant-price {
@@ -238,10 +238,10 @@ img {
     font-size: 55px;
     margin-top: 20px;
   }
-  .variant-title__freetrial {
+  .variant-title-freetrial {
     font-size: 15px;
   }
-  .variant-period__freetrial {
+  .variant-period-freetrial {
     font-size: 25px;
   }
   .variant-price {
@@ -250,7 +250,7 @@ img {
   .variant:last-child>.variant-price {
     font-size: 16px;
   }
-  .variant-price__freetrial {
+  .variant-price-freetrial {
     font-size: 14px;
   }
 }
@@ -259,7 +259,7 @@ img {
     width: 130px;
     height: 150px;
   }
-  .variant-title__freetrial {
+  .variant-title-freetrial {
     margin-bottom: 5px;
   }
 }
@@ -273,7 +273,7 @@ img {
     margin-bottom: 28px;
     padding-top: 79.5px;
   }
-  .diamond__img {
+  .diamond-img {
     width: 204px;
   }
   .options-wrapper {
@@ -292,7 +292,7 @@ img {
   .option:last-child>span {
     letter-spacing: 0.1px;
   }
-  .small-diamond__img {
+  .small-diamond-img {
     width: 18.9px;
   }
   .variants-wrapper {
@@ -305,7 +305,7 @@ img {
   .variant-wrapper {
     margin-bottom: 8.7px;
   }
-  .variant-wrapper__freetrial {
+  .variant-wrapper-freetrial {
     margin-bottom: 5.5px;
   }
   .variant-title {
@@ -313,7 +313,7 @@ img {
     line-height: 35px;
     margin-top: 29.3px;
   }
-  .variant-title__freetrial {
+  .variant-title-freetrial {
     font-size: 12px;
     padding-top: 3.2px;
     padding-bottom: 11.5px;
@@ -323,7 +323,7 @@ img {
   .variant-period {
     font-size: 16.5px;
   }
-  .variant-period__freetrial {
+  .variant-period-freetrial {
     font-size: 23px;
     line-height: 26px;
   }
@@ -332,7 +332,7 @@ img {
     margin-left: 2.5px;
     font-weight: 700;
   }
-  .variant-price__freetrial {
+  .variant-price-freetrial {
     font-size: 12.3px;
     line-height: 15px;
   }
@@ -367,12 +367,12 @@ img {
     font-size: 40px;
     margin-top: 15px;
   }
-  .variant-title__freetrial {
+  .variant-title-freetrial {
     margin-bottom: 0;
     padding-bottom: 8px;
     font-size: 10px;
   }
-  .variant-period__freetrial {
+  .variant-period-freetrial {
     line-height: 16px;
     font-size: 20px;
   }
@@ -382,7 +382,7 @@ img {
   .variant:last-child>.variant-price {
     font-size: 10px;
   }
-  .variant-price__freetrial {
+  .variant-price-freetrial {
     font-size: 10.5px;
     line-height: 11.5px;
   }
